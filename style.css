@@ -1,6 +1,7 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
- /* common css */
+
+ /* common css style*/
 body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
@@ -17,12 +18,15 @@ button{
     font-size: 20px;
 }
 
-/* header css */
 .section-title{
-    font-size: 55px;
+    font-size: 32px;
     font-weight: 700px;
     text-align: center;
+    margin-bottom: 30px;
 }
+
+/* header css style  */
+
 
 .show-section{
     background-color: #161616;
@@ -31,8 +35,7 @@ button{
     height: 450px;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
-    margin-left: 107px;
+    margin: 0 auto;
     border-radius: 15px;
 }
 .show-details{
@@ -42,10 +45,27 @@ button{
     font-size: 45px;
     font-weight: 700px;
 }
+.show-details p{
+    margin-bottom: 50px;
+}
 .half{
    width: 50%;
 }
 .half img{
     width: 70%;
     margin-left: 40px;
+}
+
+/*Match section css style */
+ 
+.all-matches{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-column-gap:25px;
+    grid-row-gap: 25px;
+    
+    
+}
+.match-details{
+    background-color:#E8E8E8;
 }
