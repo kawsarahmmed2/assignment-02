@@ -9,6 +9,7 @@ body{
 section{
     margin-bottom: 100px;
 }
+
 button{
     border: none;
     color: white;
@@ -52,20 +53,78 @@ button{
    width: 50%;
 }
 .half img{
-    width: 70%;
+    width: 80%;
     margin-left: 40px;
+    margin-top: 33px;
 }
 
 /*Match section css style */
  
+.conatiner{
+    width: 1050px;
+    margin: 0 auto;
+}
+.match-result-area{
+    display: grid;
+    grid-template-columns:1fr 3fr ;
+}
 .all-matches{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-column-gap:25px;
-    grid-row-gap: 25px;
-    
+    grid-template-columns:repeat(3, 1fr);
+    grid-column-gap:20px;
+    grid-row-gap: 20px;
     
 }
+.shedule{
+    background-color:#161616 ; 
+    width: 312px;
+    height: 312px;  
+
+}
+.shedule a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.shedule-btn{
+    /* background-color: #FFFFFF;
+    color:black; */
+}
+.shedule-btn3{
+    /* color: white;
+    background-color: #DD0000; */
+}
+
+.match{
+    width: 312px;
+}
+
 .match-details{
     background-color:#E8E8E8;
+    padding: 20px;
+} 
+
+/* footer css styles */
+footer{
+    background-color: #161616;
+    color: white;
+    padding:50px;
+}
+.footer-title{
+    text-align: center;
+}
+hr{
+    width: 70%;
+    margin-bottom: 40px;
+}
+.footer-extra ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: wheat;
+}
+.footer-extra li{
+    list-style: none;
 }
